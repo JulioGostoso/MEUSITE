@@ -1,0 +1,49 @@
+@font-face {
+    font-family: font;
+    src: url(rick.ttf);
+}
+
+:root {
+    --font1: font;
+}
+
+
+body {
+    background-image: url('/img/fundo.jpg');
+    margin: 0;
+}
+
+.container {
+    background-color: #8ADFEE;
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+div.box {
+    width: 300px;
+    height: 480px;
+	display: inline-block;
+}
+
+.box {
+    box-shadow: 0px 0px 0px 5px rgb(0, 0, 0);
+    transition: box-shadow 0.6s linear;
+    margin: 0.5em;
+}
+
+.box:hover {box-shadow: 0px 0px 0px 1px rgb(2, 1, 1);}
+
+.center {
+    text-align: center;
+}
+
+body p {
+    font-family: var(--font1);
+    background-color: #8ADFEE;
+    color: #1E606B;
+    padding: 50px;
+    font-size: 26px;
+
+    border-radius: 12px;
+}
